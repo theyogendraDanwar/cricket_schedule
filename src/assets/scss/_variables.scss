@@ -1,0 +1,43 @@
+$main-color: #e8e9ef;
+$orange: #feead9;
+$dark-orange: #b84e41;
+
+.f35 {
+  font-size: 1.3rem;
+}
+.max-vh-80 {
+  max-height: 80vh;
+}
+.min-vh-60 {
+  min-height: 60vh;
+}
+
+.hidescroll {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.bg-orange_2 {
+  background-color: $orange;
+}
+
+.f8 {
+  font-size: .65rem;
+}
+
+.min-height-4 {
+  min-height: 4px;
+}
+
+.tab-indicator {
+  border-radius: 4px;
+  background-color: $dark-orange;
+}
+.cdcgr {
+  background: linear-gradient(270deg,#d44030,#9b000d)
+}
+
+.text-cdcgr {
+  color: $dark-orange;
+}
